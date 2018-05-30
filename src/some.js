@@ -12,4 +12,10 @@ const avg = (...arr) => {
   return sum(...arr) / arr.length;
 };
 
+class SomeMath {
+  avg(...numbers){
+    let max = -Infinity
+  }
+};
+
 export default avg;
